@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UploadTestSample_Example' do
+  pod 'UploadTestSample', :path => '../'
+
+  target 'UploadTestSample_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
