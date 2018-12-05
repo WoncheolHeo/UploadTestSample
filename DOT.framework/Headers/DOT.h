@@ -10,11 +10,6 @@
 #import <WebKit/WebKit.h>
 #import <Foundation/Foundation.h>
 
-#import "Purchase.h"
-#import "Conversion.h"
-#import "Page.h"
-#import "Click.h"
-#import "User.h"
 #import "Referrer.h"
 #import "KeyConstant.h"
 #import "Tracker.h"

@@ -9,15 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
 #import "Conversion.h"
-#import "RevenueJson.h"
 #import "Purchase.h"
 #import "Click.h"
 #import "Page.h"
+#import "User.h"
 #import "SessionJson.h"
 #import "ClickJson.h"
 #import "RevenueJson.h"
 #import "GoalJson.h"
 #import "PagesJson.h"
+
 
 @interface Tracker : NSObject
 @property (nonatomic) GoalJson *goalJson;
