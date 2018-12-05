@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "UploadTestSample"
-  s.version      = "0.0.66"
+  s.version      = "0.0.67"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	Upload Dot which is third party app tracking SDK
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.author       = { 'WoncheolHeo' => 'fornew21c@wisetracker.com' }
   s.ios.deployment_target = '9.0'
 
-  s.source       = { :git => "https://github.com/WoncheolHeo/UploadTestSample", :tag => s.version.to_s }
-
+  s.source       = { :git => "https://github.com/WoncheolHeo/UploadTestSample.git", :tag => s.version.to_s }
+  s.ios.vendored_frameworks = 'DOT.framework'
  # s.source_files  = "DOT/**/*.{h,m}"
 
 #  s.subspec 'CouchbaseLite' do |ss|

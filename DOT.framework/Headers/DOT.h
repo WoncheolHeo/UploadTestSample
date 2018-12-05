@@ -17,6 +17,7 @@
 #import "User.h"
 #import "Referrer.h"
 #import "KeyConstant.h"
+#import "Tracker.h"
 
 //! Project version number for DOT.
 FOUNDATION_EXPORT double DOTVersionNumber;
