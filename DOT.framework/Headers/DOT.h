@@ -10,9 +10,13 @@
 #import <WebKit/WebKit.h>
 #import <Foundation/Foundation.h>
 
+#import "Purchase.h"
+#import "Conversion.h"
+#import "Page.h"
+#import "Click.h"
+#import "User.h"
 #import "Referrer.h"
 #import "KeyConstant.h"
-#import "Tracker.h"
 
 //! Project version number for DOT.
 FOUNDATION_EXPORT double DOTVersionNumber;
@@ -57,4 +61,5 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 + (void)setPairingData:(UIWebView *)webView;
 + (void)setPairingDataInWkWebView:(WKWebView *)webView;
 @end
+
 
