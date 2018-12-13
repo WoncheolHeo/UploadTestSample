@@ -10,15 +10,16 @@
 
 @interface CustomValue : NSObject
 
-@property (nonatomic) NSString* customerValue1;
-@property (nonatomic) NSString* customerValue2;
-@property (nonatomic) NSString* customerValue3;
-@property (nonatomic) NSString* customerValue4;
-@property (nonatomic) NSString* customerValue5;
-@property (nonatomic) NSString* customerValue6;
-@property (nonatomic) NSString* customerValue7;
-@property (nonatomic) NSString* customerValue8;
-@property (nonatomic) NSString* customerValue9;
-@property (nonatomic) NSString* customerValue10;
+@property (nonatomic) NSString* value1;
+@property (nonatomic) NSString* value2;
+@property (nonatomic) NSString* value3;
+@property (nonatomic) NSString* value4;
+@property (nonatomic) NSString* value5;
+@property (nonatomic) NSString* value6;
+@property (nonatomic) NSString* value7;
+@property (nonatomic) NSString* value8;
+@property (nonatomic) NSString* value9;
+@property (nonatomic) NSString* value10;
 
 @end
+
