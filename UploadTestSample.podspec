@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source       = { :git => "https://github.com/WoncheolHeo/UploadTestSample.git", :tag => s.version.to_s }
-  s.ios.vendored_frameworks = 'DOT.framework'
+  s.ios.vendored_frameworks = 'DOTTest.framework'
   s.resources = ["dop-native-sdk-inf.js","Info.plist","NotificationViewController.swift","Base.lproj"]
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
