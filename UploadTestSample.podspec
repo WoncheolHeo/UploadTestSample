@@ -1,8 +1,6 @@
 Pod::Spec.new do |s|
-
-
   s.name         = "UploadTestSample"
-  s.version      = "0.1.5"
+  s.version      = "0.1.6"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	Upload Dot which is third party app tracking SDK
@@ -15,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/WoncheolHeo/UploadTestSample.git", :tag => s.version.to_s }
 # s.ios.vendored_frameworks = 'DOTTest.framework'
-  s.resources = ["Info.plist","NotificationViewController.swift","Base.lproj"]
+  s.resources = ["NotificationViewController.swift","Base.lproj"]
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
